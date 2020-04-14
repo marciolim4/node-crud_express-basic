@@ -19,6 +19,6 @@ app.use((req, res, next) => {
 
 app.use(routes); //Allow routes to be used between all my application
 
-app.listen(PORT || 3333, () => {
+app.listen(3333, () => {
   console.log("Server is running");
 });
